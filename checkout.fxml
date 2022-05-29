@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="750.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movies.HelloController">
+   <children>
+      <ImageView fitHeight="517.0" fitWidth="757.0" layoutX="-1.0" layoutY="-4.0" opacity="0.31" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../movies/src/main/resources/icons/theatre 1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="23.0" prefHeight="40.0" prefWidth="117.0" text="CONTACT DETAILS" textFill="#d9d9d9">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="32.0" layoutY="80.0" prefHeight="33.0" prefWidth="216.0" promptText="NAME" style="-fx-background-color: #D1D1D1;">
+         <font>
+            <Font name="Agency FB" size="17.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="263.0" layoutY="79.0" prefHeight="34.0" prefWidth="239.0" promptText="EMAIL" style="-fx-background-color: #D1D1D1;">
+         <font>
+            <Font name="Agency FB" size="17.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="519.0" layoutY="80.0" prefHeight="33.0" prefWidth="199.0" promptText="PHONE" style="-fx-background-color: #D1D1D1;">
+         <font>
+            <Font name="Agency FB" size="17.0" />
+         </font>
+      </TextField>
+      <Line endX="517.0000610351562" endY="7.62939453125E-6" layoutX="163.0" layoutY="62.0" startX="-140.59999084472656" startY="7.62939453125E-6" stroke="#edde05b2" />
+      <Label layoutX="31.0" layoutY="140.0" prefHeight="40.0" prefWidth="117.0" text="CHECKOUT" textFill="#d9d9d9">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Line endX="517.0000610351562" endY="7.62939453125E-6" layoutX="162.0" layoutY="180.0" startX="-140.59999084472656" startY="7.62939453125E-6" stroke="#edde05b2" />
+      <Label layoutX="51.0" layoutY="210.0" prefHeight="19.0" prefWidth="60.0" text="Ticket:" textFill="#c7c7c7">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="267.0" prefHeight="19.0" prefWidth="98.0" text="Conv. Fees: " textFill="#c7c7c7">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="335.0" prefHeight="19.0" prefWidth="98.0" text="GST: " textFill="#c7c7c7">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tot" layoutX="51.0" layoutY="406.0" prefHeight="19.0" prefWidth="98.0" text="TOTAL" textFill="#c7c7c7">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="440.0" layoutY="197.0" prefHeight="20.0" prefWidth="108.0" text="PAYMENT METHOD: " textFill="#c7c7c7">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Label>
+      <Line endX="482.79998779296875" layoutX="196.0" layoutY="232.0" startX="220.4000244140625" stroke="#edde05b2" />
+      <Label layoutX="440.0" layoutY="252.0" prefHeight="20.0" prefWidth="108.0" text="CREDIT CARD" textFill="#c7c7c7">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="20.0" fitWidth="60.0" layoutX="537.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../movies/src/main/resources/icons/visa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="60.0" layoutX="629.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../movies/src/main/resources/icons/Mastercard_logo.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="482.79998779296875" layoutX="196.0" layoutY="297.0" startX="220.4000244140625" stroke="#edde05b2" />
+      <Label layoutX="440.0" layoutY="321.0" prefHeight="20.0" prefWidth="108.0" text="DEBIT CARD" textFill="#c7c7c7">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="20.0" fitWidth="60.0" layoutX="537.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../movies/src/main/resources/icons/visa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="60.0" layoutX="629.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../movies/src/main/resources/icons/Mastercard_logo.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="482.79998779296875" layoutX="203.0" layoutY="370.0" startX="220.4000244140625" stroke="#edde05b2" />
+      <Label layoutX="440.0" layoutY="394.0" prefHeight="20.0" prefWidth="108.0" text="UPI PAYMENT" textFill="#c7c7c7">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="26.0" fitWidth="45.0" layoutX="531.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../movies/src/main/resources/icons/upi.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="619.0" layoutY="439.0" mnemonicParsing="false" onAction="#ty" prefHeight="34.0" prefWidth="98.0" style="-fx-background-color: Gold;" text="CHECKOUT">
+         <font>
+            <Font name="Agency FB" size="19.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#353839" height="26.0" layoutX="154.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Label layoutX="213.0" layoutY="211.0" text="400" textFill="#eceaea" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#353839" height="26.0" layoutX="155.0" layoutY="264.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#353839" height="26.0" layoutX="154.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#353839" height="26.0" layoutX="155.0" layoutY="403.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Label layoutX="213.0" layoutY="268.0" text="55.5" textFill="#eceaea" />
+      <Label layoutX="213.0" layoutY="336.0" text="28%" textFill="#eceaea" />
+      <Label fx:id="totalLabel" layoutX="214.0" layoutY="407.0" text="Total" textFill="#eceaea" />
+   </children>
+</AnchorPane>

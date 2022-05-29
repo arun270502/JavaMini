@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="750.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movies.HelloController">
+   <children>
+      <ImageView fitHeight="485.0" fitWidth="750.0" layoutX="-1.0" layoutY="-1.0" opacity="0.32" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/theatre 1.jpg" />
+         </image></ImageView>
+      <Line endX="490.79998779296875" endY="-7.62939453125E-6" layoutX="203.0" layoutY="51.0" startX="-148.40000915527344" startY="-7.62939453125E-6" stroke="#514e4e" />
+      <Label layoutX="148.0" layoutY="19.0" prefHeight="32.0" prefWidth="69.0" text="POPCORN" textFill="#a9a9a9">
+         <font>
+            <Font name="Agency FB" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="19.0" prefHeight="32.0" prefWidth="69.0" text="DRINKS" textFill="#a9a9a9">
+         <font>
+            <Font name="Agency FB" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="19.0" prefHeight="32.0" prefWidth="69.0" text="BURGERS" textFill="#a9a9a9">
+         <font>
+            <Font name="Agency FB" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="19.0" prefHeight="32.0" prefWidth="37.0" text="ALL" textFill="#a9a9a9">
+         <font>
+            <Font name="Agency FB" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="649.0" layoutY="63.0" mnemonicParsing="false" onAction="#Check" prefHeight="27.0" prefWidth="55.0" style="-fx-background-color: Gold;" text="CART">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="139.0" layoutX="63.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/how-to-make-popcorn.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="157.0" layoutX="285.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/pepsi.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="157.0" layoutX="538.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/sprite.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="157.0" layoutX="50.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/mirinda.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="195.0" layoutX="264.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/burger.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="229.0" layoutX="521.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/nachos.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="63.0" layoutY="235.0" mnemonicParsing="false" onAction="#popM" style="-fx-background-color: #353839;" text="M" textAlignment="CENTER" textFill="#efebeb">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="235.0" mnemonicParsing="false" onAction="#popL" style="-fx-background-color: #353839;" text="L" textAlignment="CENTER" textFill="#efebeb">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="420.0" mnemonicParsing="false" onAction="#veg" prefHeight="24.0" prefWidth="46.0" style="-fx-background-color: #353839;" text="Veg" textAlignment="CENTER" textFill="#efebeb">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="374.0" layoutY="420.0" mnemonicParsing="false" onAction="#nonveg" prefHeight="27.0" prefWidth="70.0" style="-fx-background-color: #353839;" text="Non- Veg" textAlignment="CENTER" textFill="#efebeb">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="324.0" layoutY="231.0" mnemonicParsing="false" onAction="#pepsi" style="-fx-background-color: #353839;" text="Add to Cart" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="573.0" layoutY="235.0" mnemonicParsing="false" onAction="#sprite" style="-fx-background-color: #353839;" text="Add to Cart" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="85.0" layoutY="423.0" mnemonicParsing="false" onAction="#mirinda" style="-fx-background-color: #353839;" text="Add to Cart" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="572.0" layoutY="418.0" mnemonicParsing="false" onAction="#nachos" style="-fx-background-color: #353839;" text="Add to Cart" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="580.0" layoutY="63.0" mnemonicParsing="false" onAction="#Check" prefHeight="27.0" prefWidth="55.0" style="-fx-background-color: Gold;" text="SKIP">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="60.0" layoutY="262.0" text="Rs 140" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="262.0" text="Rs 200" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="345.0" layoutY="262.0" text="Rs 80" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="594.0" layoutY="262.0" text="Rs 80" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="450.0" text="Rs 80" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="291.0" layoutY="450.0" text="Rs 220" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="392.0" layoutY="450.0" text="Rs 260" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="589.0" layoutY="450.0" text="Rs 150" textFill="#d4bd0a">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
